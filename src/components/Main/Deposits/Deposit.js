@@ -26,7 +26,7 @@ const Text = styled.h1`
 
 const Subtitle = styled(Text)`
     font-size: 0.6rem;
-    color: #B2BFE1;
+    color: #f8f8f8;
     margin-top: 2px;
 `
 
@@ -94,10 +94,10 @@ const Deposit = ({ data }) => {
                 <Text>{status.message}</Text>
                 {(() => {
                     switch (status.level) {
-                        case 1: return <StatusIndicator color="#F17E7E" />;
-                        case 2: return <StatusIndicator color="#FFD056" />;
-                        case 3: return <StatusIndicator color="#75C282" />;
-                        default: return <StatusIndicator color="#AAA5A5" />;
+                        case 1: return <StatusIndicator color="#7746d3" />;
+                        case 2: return <StatusIndicator color="#634ad6" />;
+                        case 3: return <StatusIndicator color="#58c193" />;
+                        default: return <StatusIndicator color="#6dc17f" />;
                     }
                 })()}
             </Status>

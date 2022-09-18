@@ -25,7 +25,7 @@ export const lightTheme = {
 export const darkTheme = {
     primary: '#302C40',
     secondary: '#2C2839',
-    textColor: '#FFF',
+    textColor: '#595282',
     header: '#FFF',
     headerNumber: '#585280',
     activeMenu: '#FFF',

@@ -14,7 +14,7 @@ const Button = styled.a`
     font-size: 0.6rem;
     font-weight: 700;
     background-image: ${({ theme }) => theme.gradient};
-    color: #FFF;
+    color: #facd51;
     border-radius: 5rem;
     padding: 0.7rem;
     display: flex;

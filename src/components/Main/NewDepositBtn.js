@@ -22,7 +22,7 @@ const AddButton = styled.a`
 `
 
 const AddIcon = styled.span`
-    color: #ffffff;
+    color: #e98271;
     font-size: 36px;
 `
 
